@@ -18,12 +18,14 @@ foo = {
  * @param {string}
  */
 var e = function(){
+    /** jshint ignore:start */
     return {
         x: 10,
-        y: 20,
+        y: 20,    // jshint ignore:line
         z: 30,
         e: 40
     }
+    /** jshint ignore:end */
 };
 
 var foo = {
