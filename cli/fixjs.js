@@ -6,19 +6,20 @@
  **************************************************************************/
 
 /**
- * seed.js ~ 2014/04/01 11:12:59
+ * edp fix js style command
  * @author shaoshuai02@baidu.com
  * @version $Revision$
  * @description
- * edp seed
  */
 exports.cli = {
     options: [
-        'replace'
+        'replace' //replace source file directly, default false
     ],
     description: 'edp fix js style',
     main: function (args, opts) {
         var fs = require('fs');
+
+        //edp fixjs clean tool to remove *.formatted.js
         if (args[0] === 'clean') {
             require('../lib/util').getCandidates([], [
                 '**/*.formatted.js',
