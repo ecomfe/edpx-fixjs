@@ -1,22 +1,22 @@
 {
-  "name": "edpx-seed",
-  "version": "0.0.1",
-  "description": "edp user command seed",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/ecomfe/edpx-seed.git"
-  },
-  "keywords": [
-    "edp"
-  ],
-  "author": "leeight@gmail.com",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/ecomfe/edpx-seed/issues"
-  },
-  "homepage": "https://github.com/ecomfe/edpx-seed"
+    "name": "edpx-fixjs",
+    "version": "0.0.1",
+    "description": "edp user command fixjs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ecomfe/edpx-fixjs.git"
+    },
+    "keywords": [
+        "edp"
+    ],
+    "author": "leeight@gmail.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ecomfe/edpx-fixjs/issues"
+    },
+    "homepage": "https://github.com/ecomfe/edpx-fixjs"
 }
