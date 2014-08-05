@@ -16,7 +16,6 @@ exports.cli = {
     options: ['replace'],
     description: 'edp fix js style',
     main: function (args, opts) {
-        console.log('See edp seed --help');
         console.log('Arguments = ' + JSON.stringify(args));
         console.log('Options = ' + JSON.stringify(opts));
         var patterns = [
@@ -27,7 +26,9 @@ exports.cli = {
         var candidates = require('../lib/util').getCandidates(args, patterns);
 
         if (candidates.length) {
-            console.log(candidates);
+            candidates.forEach(function (path) {
+                console.log(require('jformatter').formatFile(path));
+            });
         }
     }
 };
