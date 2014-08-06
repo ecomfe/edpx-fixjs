@@ -10,10 +10,16 @@
         "type": "git",
         "url": "https://github.com/ecomfe/edpx-fixjs.git"
     },
+    "dependencies": {
+        "jformatter": "0.0.x"
+    },
+    "devDependencies": {
+        "jformatter": "0.0.x"
+    },
     "keywords": [
         "edp"
     ],
-    "author": "leeight@gmail.com",
+    "author": "shaoshuai02@baidu.com",
     "license": "MIT",
     "bugs": {
         "url": "https://github.com/ecomfe/edpx-fixjs/issues"

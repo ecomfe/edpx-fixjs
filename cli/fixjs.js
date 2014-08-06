@@ -13,13 +13,13 @@
  */
 exports.cli = {
     options: [
-        'replace' //replace source file directly, default false
+        'replace' // replace source file directly, default false
     ],
     description: 'edp fix js style',
     main: function (args, opts) {
         var fs = require('fs');
 
-        //edp fixjs clean tool to remove *.formatted.js
+        // edp fixjs clean tool to remove *.formatted.js
         if (args[0] === 'clean') {
             require('../lib/util').getCandidates([], [
                 '**/*.formatted.js',
