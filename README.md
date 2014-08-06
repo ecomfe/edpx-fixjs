@@ -1,8 +1,10 @@
-edpx-seed
-=========
+edpx-fixjs
+==========
 
-edp user command seed
+edp fix js style and more
 
-`cli`目录是对外提供的命令，无关紧要的文件建议不要放到这里。
+    Usage:
+        edp fixjs
+        edp fixjs -r
 
-`lib`目录是真正的实现逻辑
+默认会在filename.js同目录增加filename.formatted.js，如果使用`-r`选项，那么直接在源文件上替换
