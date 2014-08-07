@@ -29,7 +29,8 @@ exports.cli = {
                 console.log(path + ' removed.');
                 fs.unlinkSync(path);
             });
-        } else {
+        }
+        else {
             var patterns = [
                 '**/*.js',
                 '!**/{output,test,node_modules,asset,dist,release,doc,dep,report}/**'
