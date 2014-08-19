@@ -1,11 +1,30 @@
 {
-  "name": "edpx-fixjs",
-  "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC"
+    "name": "edpx-fixjs",
+    "version": "0.0.1",
+    "description": "edp user command fixjs",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ecomfe/edpx-fixjs.git"
+    },
+    "dependencies": {
+        "jformatter": ">=0.1.0",
+        "fixmyjs": ">=0.13.1"
+    },
+    "devDependencies": {
+        "jformatter": ">=0.1.0",
+        "fixmyjs": ">=0.13.1"
+    },
+    "keywords": [
+        "edp"
+    ],
+    "author": "shaoshuai02@baidu.com",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/ecomfe/edpx-fixjs/issues"
+    },
+    "homepage": "https://github.com/ecomfe/edpx-fixjs"
 }
