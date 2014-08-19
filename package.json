@@ -11,10 +11,12 @@
         "url": "https://github.com/ecomfe/edpx-fixjs.git"
     },
     "dependencies": {
-        "jformatter": ">=0.1.0"
+        "jformatter": ">=0.1.0",
+        "fixmyjs": ">=0.13.1"
     },
     "devDependencies": {
-        "jformatter": ">=0.1.0"
+        "jformatter": ">=0.1.0",
+        "fixmyjs": ">=0.13.1"
     },
     "keywords": [
         "edp"
