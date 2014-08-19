@@ -1,6 +1,6 @@
 {
     "name": "edpx-fixjs",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "edp user command fixjs",
     "main": "index.js",
     "scripts": {

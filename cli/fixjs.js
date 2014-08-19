@@ -11,15 +11,79 @@
  * @version $Revision$
  * @description
  */
+var jshintConfig = {
+    'indent': 4,
+    'bitwise': false,
+    'camelcase': true,
+    'curly': true,
+    'es3': true,
+    'eqeqeq': false,
+    'forin': false,
+    'immed': true,
+    'latedef': false,
+    'newcap': true,
+    'noarg': false,
+    'noempty': true,
+    'nonew': true,
+    'plusplus': false,
+    'quotmark': 'single',
+    'regexp': false,
+    'undef': false,
+    'unused': 'vars',
+    'strict': false,
+    'trailing': false,
+    'maxparams': 20,
+    'maxdepth': 6,
+    'maxlen': 120,
+    'asi': false,
+    'boss': false,
+    'debug': false,
+    'eqnull': true,
+    'esnext': false,
+    'evil': true,
+    'expr': true,
+    'funcscope': false,
+    'globalstrict': false,
+    'iterator': false,
+    'lastsemic': false,
+    'laxbreak': true,
+    'laxcomma': false,
+    'loopfunc': false,
+    'multistr': false,
+    'onecase': false,
+    'proto': false,
+    'regexdash': false,
+    'scripturl': false,
+    'smarttabs': false,
+    'shadow': true,
+    'sub': true,
+    'supernew': false,
+    'validthis': true,
+    'browser': true,
+    'couch': false,
+    'devel': true,
+    'dojo': false,
+    'jquery': true,
+    'mootools': false,
+    'node': false,
+    'nonstandard': false,
+    'prototypejs': false,
+    'rhino': false,
+    'wsh': false,
+    'nomen': false,
+    'onevar': false,
+    'passfail': false,
+    'white': false
+};
+
 exports.cli = {
     options: [
-        'replace', // replace source file directly, default false
+        'replace',
         'clean'
     ],
     description: 'edp fix js style',
     main: function (args, opts) {
         var fs = require('fs');
-
         // edp fixjs clean tool to remove *.formatted.js
         if (opts.clean) {
             require('../lib/util').getCandidates([], [
@@ -54,72 +118,5 @@ exports.cli = {
     }
 };
 
-/* jslint quotmark: true */
-var jshintConfig = {
-    "indent": 4, //fixmyjs 依赖这个配置，不然生成的代码indent == 2
-    "bitwise": false,
-    "camelcase": true,
-    "curly": true,
-    "es3": true,
-    "eqeqeq": false,
-    "forin": false,
-    "immed": true,
-    "latedef": false,
-    "newcap": true,
-    "noarg": false,
-    "noempty": true,
-    "nonew": true,
-    "plusplus": false,
-    "quotmark": "single",
-    "regexp": false,
-    "undef": false,
-    "unused": "vars",
-    "strict": false,
-    "trailing": false,
-    "maxparams": 20,
-    "maxdepth": 6,
-    "maxlen": 120,
 
-    "asi": false,
-    "boss": false,
-    "debug": false,
-    "eqnull": true,
-    "esnext": false,
-    "evil": true,
-    "expr": true,
-    "funcscope": false,
-    "globalstrict": false,
-    "iterator": false,
-    "lastsemic": false,
-    "laxbreak": true,
-    "laxcomma": false,
-    "loopfunc": false,
-    "multistr": false,
-    "onecase": false,
-    "proto": false,
-    "regexdash": false,
-    "scripturl": false,
-    "smarttabs": false,
-    "shadow": true,
-    "sub": true,
-    "supernew": false,
-    "validthis": true,
-
-    "browser": true,
-    "couch": false,
-    "devel": true,
-    "dojo": false,
-    "jquery": true,
-    "mootools": false,
-    "node": false,
-    "nonstandard": false,
-    "prototypejs": false,
-    "rhino": false,
-    "wsh": false,
-
-    "nomen": false,
-    "onevar": false,
-    "passfail": false,
-    "white": false
-};
 /* vim: set ts=4 sw=4 sts=4 tw=100: */
