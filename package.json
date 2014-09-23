@@ -1,6 +1,6 @@
 {
     "name": "edpx-fixjs",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "description": "edp user command fixjs",
     "main": "index.js",
     "scripts": {
@@ -11,12 +11,12 @@
         "url": "https://github.com/ecomfe/edpx-fixjs.git"
     },
     "dependencies": {
-        "jformatter": ">=0.1.0",
-        "fixmyjs": ">=0.13.1"
+        "jformatter": "0.1.6",
+        "fixmyjs": "0.13.2"
     },
     "devDependencies": {
-        "jformatter": ">=0.1.0",
-        "fixmyjs": ">=0.13.1"
+        "jformatter": "0.1.6",
+        "fixmyjs": "0.13.2"
     },
     "keywords": [
         "edp"

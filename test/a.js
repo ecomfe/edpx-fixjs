@@ -19,7 +19,7 @@ foo = {
  */
 var e = function(){
     return {
-        x: 10,
+        x: '中文',
         y: 20,
         z: 30,
         e: 40
