@@ -13,6 +13,7 @@
  */
 var jshintConfig = {
     'indent': 4,
+    'escapeless': true,
     'bitwise': false,
     'camelcase': true,
     'curly': true,
